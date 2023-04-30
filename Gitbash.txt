@@ -1,0 +1,15 @@
+git config --global init.defaultBranch main
+git config --global user.email "joshuatallman78@gmail.com"
+git config --global user.name "Joshua Tallman"
+git config --global credential.helper store
+
+merge hatasi alinca= 
+Mevcut birleştirme işlemini iptal etme:
+git merge --abort
+Bu komut, henüz tamamlanmamış birleştirme(merge)işlemini iptal eder ve değişiklikleri geri alır. 
+
+git log 
+Komutunu kullanarak geçmiş commit işlemlerinive Id'lerini görüntüleyebiliriz. Bu komut, son commit işleminden başlayarak önceki işlemleri gösterir.
+
+git reset <commit-id>
+son commiti geri alir.
