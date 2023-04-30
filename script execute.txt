@@ -1,0 +1,11 @@
+chmod a+x script.sh
+export PATH=$PATH:$(pwd)  >>>  .sh dosyasinin oldugu klasöre cd ile gelip bunu calistirinca
+script.sh i her yerden calistirabilirsin yani hangi dizinde oldugunun bir önemi yok. 
+
+veya
+
+chmod a+x script.sh
+./script.sh   >>>  .sh dosyasinin oldugu klasöre cd ile gelip bunu calistirabilirsin
+                   ancak baska bir dizindeyken bunu calistiramazsin 
+
+ikisi de ayni ise yaramasina ragmen farklari sadece bu, yani birinda PATH e ekledigimiz icin her yerden calistirilabiliyor olmasi.
