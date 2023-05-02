@@ -1,0 +1,14 @@
+Host *
+    TCPKeepAlive yes
+    ServerAliveInterval 120
+
+Host sule
+    HostName 34.238.153.102
+    IdentityFile C:/Users/sule/Desktop/second.pem
+    User ec2-user
+# ec2-user linux makine demektir. 2023 veya linux2 egal.
+
+Host sule-ubuntu
+    HostName 54.164.227.56
+    IdentityFile C:/Users/sule/Desktop/second.pem
+    User ubuntu
