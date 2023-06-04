@@ -1,0 +1,38 @@
+If you're an IT professional, knowing the OSI Model is a must in 2023
+
+
+Knowing the OSI Model is no longer only for networking folks. In today's interconnected world, it's becoming essential knowledge for everyone in the tech industry.
+
+
+𝗧𝗵𝗲 𝗢𝗽𝗲𝗻 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗜𝗻𝘁𝗲𝗿𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻 (𝗢𝗦𝗜) model is a conceptual framework for understanding how computers communicate with each other.
+
+let's think of the OSI model as a postal system for the internet.
+
+In this system, we have seven steps (or layers) that information takes from one computer to another.
+
+Each layer has a specific job and these jobs need to be done in a certain order, like when you send a letter through the post office.
+
+1. 𝗣𝗵𝘆𝘀𝗶𝗰𝗮𝗹 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟭) 🚚: Like a mail truck, this layer is responsible for the actual delivery of data. In a computer, it's the physical parts like the cables and wires 🔌 that carry the data from one computer to another.
+   
+2. 𝗗𝗮𝘁𝗮 𝗟𝗶𝗻𝗸 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟮) 🏷️: This layer is like the sorting process at the post office. It prepares the data for transport on the physical layer by packaging it up 📦 and adding a delivery address 🏠.
+   
+3. 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟯) 🗺️: This is like the system the post office uses to determine the best route for the letter. This layer finds the best path 🛤️ for the data to get to its destination.
+   
+4. 𝗧𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟰) 🛡️: Think of it as a security check. It ensures that the data arrives safely without any errors, like making sure that your letter isn't damaged when it arrives.
+   
+5. 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟱) 🤝: This layer is like making sure the mail is delivered to the correct mailbox 📬. It establishes, maintains, and ends communication with the receiving device.
+   
+6. 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟲) 🧑‍💻: This layer is like the person who opens the letter and translates it into a language you understand. It changes the data into a format that the receiving computer can understand.
+   
+7. 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗟𝗮𝘆𝗲𝗿 (𝗟𝗮𝘆𝗲𝗿 𝟳) 💌: This is like the contents of the letter itself - the information you want to communicate. This is the data that the user interacts with, like your email 📧 or web browser 🌐.
+
+𝗧𝗖𝗣/𝗜𝗣 is another model used for networking and it stands for "Transmission Control Protocol/Internet Protocol."
+
+1. 𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗜𝗻𝘁𝗲𝗿𝗳𝗮𝗰𝗲 (𝗟𝗮𝘆𝗲𝗿 𝟭) 🚚: This is a combination of OSI's Physical and Data Link layers.
+   
+2. 𝗜𝗻𝘁𝗲𝗿𝗻𝗲𝘁 (𝗟𝗮𝘆𝗲𝗿 𝟮) 🗺️: This is similar to OSI's Network layer.
+   
+3. 𝗧𝗿𝗮𝗻𝘀𝗽𝗼𝗿𝘁 (𝗟𝗮𝘆𝗲𝗿 𝟯) 🛡️: This combines the functions of OSI's Transport and Session layers.
+   
+4. 𝗔𝗽𝗽𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻 (𝗟𝗮𝘆𝗲𝗿 𝟰) 💌: This layer combines the OSI's Presentation and Application layers.
+
